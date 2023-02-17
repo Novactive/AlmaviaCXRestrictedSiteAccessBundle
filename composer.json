@@ -1,0 +1,46 @@
+{
+  "name": "almaviacx/restrictedsiteaccess",
+  "description": "AlmaviaCX Restricted SiteAccess Bundle provide ",
+  "keywords": [
+    "platformsh",
+    "ibexa",
+    "almaviacx"
+  ],
+  "homepage": "https://github.com/Novactive/AlmaviaCXRestrictedSiteAccessBundle",
+  "type": "ibexa-bundle",
+  "authors": [
+    {
+      "name": "AlmaviaCX",
+      "homepage": "https://almaviacx.com/",
+      "email": "dir.tech@almaviacx.com"
+    }
+  ],
+  "license": [
+    "MIT"
+  ],
+  "require": {
+    "php": "^7.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "AlmaviaCX\\RestrictedSiteaccess\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "AlmaviaCX\\RestrictedSiteaccess\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "thanks": {
+      "name": "ibexa/oss",
+      "url": "https://github.com/ibexa/oss"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
