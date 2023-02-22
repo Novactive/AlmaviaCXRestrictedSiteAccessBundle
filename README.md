@@ -1,12 +1,10 @@
 # AlmaviaCX Restricted SiteAccess Bundle
 
-AlmaviaCX Restricted SiteAccess Bundle allows to restrict one or more siteaccess by IPs for ibexa 4 in case it is impossible to restrict by nginx/apache or .htaccess. Useful for restricting a siteaccess on platform.sh
+AlmaviaCX Restricted SiteAccess Bundle provide a restriction of one or more siteaccess by IP addresses for ibexa 4.x in case it is impossible to restrict by nginx/apache or .htaccess. Useful for restricting a siteaccess on platform.sh
 
 ----
 
 ## Installation
-
-Ibexa 4.4+
 
 ### Use Composer
 
@@ -23,7 +21,7 @@ Then inject the bundle in the `config\bundles.php` of your application.
     ];
 ```
 
-### Add new parameters
+### Add parameters
 
 The values can be updated according to the project specification
 
