@@ -1,6 +1,6 @@
 {
   "name": "almaviacx/restrictedsiteaccess",
-  "description": "AlmaviaCX Restricted SiteAccess Bundle allows to restrict one or more siteaccess by IPs for ibexa 4 in case it is impossible to restrict by nginx/apache or .htaccess. Useful for restricting a siteaccess on platform.sh",
+  "description": "AlmaviaCX Restricted SiteAccess Bundle provide a restriction of one or more siteaccess by IP addresses for ibexa 4.x in case it is impossible to restrict by nginx/apache or .htaccess. Useful for restricting a siteaccess on platform.sh",
   "keywords": [
     "platformsh",
     "ibexa",
@@ -15,6 +15,9 @@
       "email": "dir.tech@almaviacx.com"
     }
   ],
+  "require": {
+    "php": ">=7.4"
+  },
   "license": [
     "MIT"
   ],
